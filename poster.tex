@@ -167,7 +167,7 @@ Oxford} % Institution(s)
 				\begin{column}{0.5\textwidth}
 					\begin{itemize}
 						\small
-						\item \underline{Right to be informed}
+						\item \textit{Right to be informed}
 						\item Right of access
 						\item Right to rectification
 						\item Right to erasure
@@ -179,7 +179,8 @@ Oxford} % Institution(s)
 						\item Right to restrict processing
 						\item Right to data portability
 						\item Right to object
-						\item Rights w.r.t. automated decisions
+						\item Rights w.r.t. automated decision-making + 
+						profiling
 					\end{itemize}
 				\end{column}
 			\end{columns}
@@ -201,7 +202,7 @@ Oxford} % Institution(s)
     but..}
 	\vspace{0.5cm}
 	{\\ \large
-	..that's not what you find in the top 26 771 apps.}
+	..that's not what you find for the top 26 771 apps.}
 	% Three arguments for this interpretation:
 	% 1. From a technical perspective, there is data collected before the 
 	%data subject can see the policies
@@ -218,14 +219,17 @@ Oxford} % Institution(s)
 
 \begin{block}{Tracking by revenue and recency}
 	\begin{figure}
+		\label{fig:rev}
 		\includegraphics[width=\textwidth]{figures/by_collection.pdf}
-		\caption{ \ 
-		If any trackers are used, then analytics almost always is.
+		\caption{ \ (\textasciitilde7600 
+			apps/collection)
+		If any trackers are used, then \textbf{analytics almost always} is.
 		Whilst the policies of
 		paid apps bring trackers less likely than free ones, they 
-		are often provide no privacy policy.
-		(\textasciitilde7600
-			apps/collection) }
+		often provide no privacy policy. Having no policy might 
+		\textbf{indicate no data collection}.
+		GDPR information requests confirm this, but less than 
+		half of the companies replied ($n=53$). }
 	\end{figure}
 \end{block}
 
@@ -236,10 +240,15 @@ Oxford} % Institution(s)
 \begin{block}{Tracking by platform}
 	\begin{figure}
 		\includegraphics[width=\textwidth]{figures/by_platform.pdf}
-		\caption{ \ The differences in privacy policy tracking between the 
-		platforms are marginal. 
-		(\textasciitilde4000 
-			apps/country)}
+		\caption{ \ (\textasciitilde4000 
+			apps/platform)  Almost \textbf{no differences} in privacy 
+			policy 
+		tracking between the platforms are noticeable. iOS shows slightly 
+		higher number 
+		of apps 
+			without privacy policies, which might be an indicator 
+			of \textbf{no 
+			data collection}, see Figure~\ref{fig:rev}.}
 	\end{figure}
 \end{block}
 \end{column}
@@ -249,13 +258,15 @@ Oxford} % Institution(s)
 	\begin{block}{Tracking by store country}
 		\begin{figure}
 			\includegraphics[width=\textwidth]{figures/by_country.pdf}
-			\caption{ \ The differences in privacy policy tracking between 
+			\caption{ \ (\textasciitilde7600 
+				apps/country) The \textbf{differences} in privacy policy 
+			tracking between 
 			the countries of the 
 			app 
 			store 
-			charts are marginal. 
-			(\textasciitilde7600 
-			apps/country).}
+			charts are \textbf{marginal}. Only Poland (PL) shows a higher 
+			number of apps without privacy policies and fewer trackers 
+			overall.}
 		\end{figure}
 	\end{block}
 \end{column}
@@ -292,9 +303,10 @@ Oxford} % Institution(s)
 			\begin{itemize}
 				\item First \textbf{large-scale study}, comparing 
 				Android/iOS apps with 
-				free/paid ones
+				free/paid ones.
 				\item Mobile users are \textbf{heavily tracked}, as 
-				numerous studies found and confirmed herein.
+				numerous studies found and confirmed herein; paid and iOS 
+				apps might be slightly better.
 				\item It is \textbf{difficult to take action} for regular 
 				app 
 				users. The GDPR has \textbf{failed} in this sense. 
@@ -320,16 +332,16 @@ Oxford} % Institution(s)
 		\begin{alertblock}{Join the mailing list}
 			\centering
 			\textbf{Be first to get access} to our privacy tools:
-			\\ \includegraphics[width=0.31\textwidth]{figures/email_qr.eps}
-			\\ Or email to: konrad.kollnig@cs.ox.ac.uk
+			\\ \includegraphics[width=0.38\textwidth]{figures/email_qr.eps}
+			\\ Or, email to: konrad.kollnig@cs.ox.ac.uk
 		\end{alertblock}
 	\end{column}
 	\begin{column}{\sepwid}\end{column} % Empty spacer column
 	
 	\begin{column}{\onecolwid} % The third column
-		\begin{block}{Mock-Up: Privacy Mission Control}
+		\begin{block}{Aim: Privacy Mission Control}
 			\begin{figure}
-				\includegraphics[width=0.725\textwidth]{figures/mock.png}
+				\includegraphics[width=0.77\textwidth]{figures/mock.png}
 			\end{figure}
 		\end{block}
 	\end{column}
